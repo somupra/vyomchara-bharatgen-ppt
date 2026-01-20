@@ -63,8 +63,30 @@ Needs metrics to check what is the ROI increase via tech to tangibly decide how 
 Consultancy model -> B2B 
 Tender model -> B2G (g is govt)
   
-Lack of Integrates end-to-end Technological Soultion
+Lack of Integrated end-to-end Technological Solution
+Why is this hard?
+Multiple stakeholders, lack of tech infra
+No indian firms in competition:
+Hexagon, reactore, sandwik
+Stryos -> some level some part
+IITK company → AEREO → was a drone company before, now getting into mines and shit 
 Remote Location with limited infrastructure
+We discard volume of infra from the quality of it → one voxel machine per site 
+Camera
+Chinese: siyi A8 mini Full HD 6X zoom camera ₹30000, stable feed
+Adti: digital camera, 20 MP, ₹50000
+RPI camera: normal surveillance, video stream, ₹200-₹3000
+PTZ: 1.5 lacks 10X digital zoom, 
+Lidar: Velodyne puck, 5 lacks
+Chinese: Tarot, Siyi camera: up to 2 lacks
+Drone 
+Quadcopter → 1.6 lacks, optional camera mounting, 600 gm payload, 35 mins 
+Hexacopter → 3.2 lacks (10 litres), 4.5 lacks (16 litres)    
+for heavy payload 3kg, 25 mins
+to 10kg (7-8 mins)
+VTOL → (3.5 lacks) large area quick mapping
+120 mins, 600 gm 
+Mapping setup → DGPS centimetre-level accurate maps, 3.5 lacks
 Cost sensitivity
 
 
@@ -83,7 +105,7 @@ Etc
 Analyse
 Al/Ml
 Data analysis 
-Act
+Act - reactore mine one
 
 
 
@@ -102,13 +124,14 @@ Drill core
 Drones 
 Cameras
 Satellite 
-Documents 
+Documents
+iot 
 
 
 AI/ML layer
 Data analysis team
 Researchers/ domain experts 
-Consultaion
+Consultation
 
 
 
@@ -121,7 +144,7 @@ Fuel Management Solution
 Vehicle Health Monitoring Solution
 Human resource tracking
 Reports according to DGMS
-Survellience 
+Surveillance 
 Stockpile Monitoring
 Coal India (open cast)
 Asset Maintenance, Planning and Scheduling Solution 
