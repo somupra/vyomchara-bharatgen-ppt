@@ -1,10 +1,15 @@
-# Research Summary for Vyomchara Project
+# Research Summary for Vyomchara Project (Updated)
 
 ## 1. Market & Business Context
 
 *   **Company Name:** Formal registration/documentation needed.
 *   **Branding:** High-quality logo required (PNG/SVG), animation optional.
-*   **Competitive Analysis:** Research previous "Bharat Gen" winners to understand successful presentation styles and approaches.
+*   **Competitive Analysis:**
+    *   Research previous "Bharat Gen" winners for successful presentation styles.
+    *   **Major Competitors (International):** Hexagon, Reactore, Sandvik.
+    *   **Indian Competitors:**
+        *   **Stryos:** Partial solutions in the mining sector.
+        *   **AEREO (IITK company):** Originally a drone company, now entering the mining space.
 *   **Target Industries:** Mining sector, with initial focus on Indian market.
 *   **Business Models:**
     *   **B2B:** Consultancy model for private mining companies.
@@ -12,17 +17,17 @@
 *   **Potential Clients:**
     *   Orissa Mining Corporation (OMC)
     *   Coal India
-*   **Case Studies:** Analyze operations of major players like Adani and Vedanta.
 
 ## 2. Core Problem Statement in Mining
 
-*   **Resistance to Technology:** Strong status quo and potential job displacement create friction against adopting new technologies.
-*   **Lack of Integrated Solutions:** The market needs an end-to-end "Mining 4.0" platform that covers the entire operational chain from auction to delivery.
-*   **Operational Inefficiencies:**
-    *   Poor mine ventilation planning (Reference: Panigrihi).
-    *   Difficulties in geological exploration and mineral mapping.
-*   **Remote Operations:** Limited infrastructure in remote mining locations.
-*   **Cost Sensitivity:** High costs associated with advanced equipment (e.g., a Boxscan camera costs 4cr, with a full system at 22cr).
+*   **Lack of Integrated End-to-End Technological Solution:** This is the central challenge. The difficulty arises from:
+    *   Multiple stakeholders with conflicting interests.
+    *   A significant lack of existing technology infrastructure at remote sites.
+*   **Resistance to Technology:** Strong status quo and potential job displacement create friction.
+*   **Remote Operations & Infrastructure:**
+    *   Limited infrastructure is a major barrier.
+    *   **Our approach:** Focus on the quality of infrastructure, not just the volume. A single Voxel machine per site can be a starting point.
+*   **Cost Sensitivity:** High costs for advanced equipment are a major deterrent for adoption.
 
 ## 3. Proposed Solution: Vyomchara Platform
 
@@ -37,25 +42,35 @@
     *   **Potential IP:** Design patent for the integrated system.
 *   **Software & AI:**
     *   **VOXEL Software:**
-        *   **Machine Control:** IoT-based controls for device movement and data collection (using ESP32).
-        *   **AI Model:**
-            *   **Spectral Angle Mapper (SAM):** To identify granular minerals.
-            *   **Convolutional Neural Network (CNN):** To identify minimum mineral block size.
-            *   **Combined SAM+CNN:** To precisely locate mineral deposits.
+        *   **Machine Control:** IoT-based controls (ESP32).
+        *   **AI Model:** Fusion of Spectral Angle Mapper (SAM) and a Convolutional Neural Network (CNN) for precise mineral location.
     *   **Mining 4.0 Dashboard:**
-        *   Provides automation, insights, and operational management reports.
-        *   Features include: Fleet Management, Fuel Management, Asset Maintenance, Production Planning, etc.
-        *   Integration with partner solutions for features like Mine Dewatering, Logistics, and Environmental Monitoring.
+        *   **Inspiration:** Modeled after Reactore's "Mine One" dashboard.
+        *   **Features:** Automation, insights, operations management, and reporting. Integrates with partner solutions.
 *   **Data Acquisition Methods:**
-    *   **Non-Destructive:** Drone mapping (magnetometer, hyperspectral), satellite imagery.
+    *   **Non-Destructive:** Drones (magnetometer, hyperspectral), satellites, IoT sensors.
     *   **Destructive:** Analysis of drill core samples.
 
-## 4. Strategy & Go-to-Market
+## 4. Hardware Cost Analysis (Initial Research)
 
-*   **Multi-Stakeholder Approach:** Engage workers, managers, and contractors to address resistance to change.
-*   **Partnership Ecosystem:** Collaborate with other tech providers to offer a comprehensive solution and manage cost sensitivity.
-*   **On-Premises Solutions:** Deploy solutions that can work with existing infrastructure in remote locations.
+*   **Cameras:**
+    *   **Chinese (Low-cost):** Siyi A8 Mini (HD, 6x zoom) - ₹30,000
+    *   **Mid-Range:** Adti Digital Camera (20MP) - ₹50,000
+    *   **Basic Surveillance:** Raspberry Pi Camera - ₹200-₹3,000
+    *   **High-End:** PTZ Camera (10x zoom) - ₹1,50,000
+    *   **Specialized:** Lidar (Velodyne Puck) - ₹5,00,000
+*   **Drones:**
+    *   **Quadcopter:** 1.6 lakhs (600g payload, 35 min flight).
+    *   **Hexacopter:** 3.2 - 4.5 lakhs (heavy payload up to 10kg, shorter flight time).
+    *   **VTOL (Vertical Take-off and Landing):** 3.5 lakhs (for large area mapping, 120 min flight, 600g payload).
+*   **Mapping Setup:**
+    *   **DGPS (Differential GPS):** For centimeter-level accurate maps - 3.5 lakhs.
+
+## 5. Strategy & Go-to-Market
+
+*   **Multi-Stakeholder Approach:** Engage workers, managers, and contractors to address resistance.
+*   **Partnership Ecosystem:** Collaborate with other tech providers to manage cost sensitivity and offer a complete solution.
+*   **On-Premises Solutions:** Deploy solutions that work with existing infrastructure.
 *   **Government & Bureaucracy:**
     *   Engage with ministry-level advisors for tender-based budgeting.
-    *   Propose AI automation solutions (like "RAFTAAR") to streamline bureaucratic processes.
-*   **Metrics & ROI:** Develop clear metrics to demonstrate the return on investment (ROI) from technology adoption to justify profit-sharing models.
+    *   Propose AI automation solutions to streamline processes.
