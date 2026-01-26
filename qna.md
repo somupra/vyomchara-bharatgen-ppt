@@ -79,3 +79,14 @@ This project is of **critical national importance for India**.
 2.  **Economic Efficiency:** By improving the efficiency of our mines, we can reduce costs, increase output, and make our domestic industries (steel, power, etc.) more competitive.
 3.  **Improved Safety and Compliance:** Our platform will lead to safer working conditions for miners and better environmental compliance, addressing major social and governance issues.
 4.  **Global Leadership:** By creating a successful "Mining 4.0" platform in the complex Indian environment, we will have a blueprint to export this technology to other developing nations with similar challenges. This has the potential to make India a global leader in mining technology, moving beyond just being a consumer of foreign tech.
+
+mine twin: https://drive.google.com/file/d/1bvR54xIbrQVwbHBkEImsPRwwOZqssYHF/view?usp=sharing
+coal ops admin: https://drive.google.com/file/d/1L0K5w-_QAxDfBOgoaq4OzjuNgcl7XQ6e/view?usp=sharing
+coal ops rbac: https://drive.google.com/file/d/1IlcKWMhTieIu2J7BBr9YOE1AbKl5clKL/view?usp=drive_link
+digital twin texmin vid: https://drive.google.com/file/d/17kqbvpBAf1wVNPFDSLtYUtVUULlO-x-i/view?usp=sharing
+voxel pic: https://drive.google.com/file/d/1Inn_79T_DLzzaa4yOmCPsi-Al7s_tjMT/view?usp=sharing
+voxel sw: https://drive.google.com/file/d/1A8IiIV8BoQjkmhXLZrh3q2QW93u5Tvf1/view?usp=sharing
+uav mapping sw: https://drive.google.com/file/d/1m94h-7jxzTpP-lst8CDE58oLJdR7HwQG/view?usp=sharing
+uav mapping sw: https://drive.google.com/file/d/1y3hk0xtiQKWve8qUkrflwY2khZhtKSSE/view?usp=sharing
+heavy drones:https://drive.google.com/file/d/1PZ4-uDu8IJQLbaVSf_WKdlN-F2JmawjT/view?usp=sharing
+quadcopter mapping: https://drive.google.com/file/d/1WSPPn_5kBW7aeVyBsf4yXsli-G0uW25-/view?usp=sharing
